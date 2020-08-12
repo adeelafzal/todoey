@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:todoey/models/task.dart';
 import 'dart:collection';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class TaskData extends ChangeNotifier {
   List<Task> _tasks = [
